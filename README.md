@@ -1,4 +1,7 @@
-# Gatsby v2 WordPress Starter
+# Starter Gatsby + Wordpress Gatsby v1
+
+This is my starter, and it's inspired by: https://github.com/GatsbyCentral/gatsby-starter-wordpress
+I added support for SEO and other little things.
 
 This starter is forked from the
 [gatsby-starter-netlify-cms](https://github.com/netlify-templates/gatsby-starter-netlify-cms)
@@ -43,5 +46,3 @@ were gratefully received from the following folks:
 
 * https://github.com/tomByrer
 * https://github.com/dajocarter
-# folio
-# starter-gatsby-wordpress
