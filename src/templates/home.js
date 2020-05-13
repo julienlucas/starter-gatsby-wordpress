@@ -17,7 +17,9 @@ export function HomeTemplate({ data }) {
 
       <main className="home">
         <section className="section-1">
-          <div className="container"></div>
+          <div className="container">
+            <div className="content" dangerouslySetInnerHTML={{ __html: data.content }} />
+          </div>
         </section>
       </main>
     </div>

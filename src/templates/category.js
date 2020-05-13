@@ -16,7 +16,7 @@ const Category = props => {
     <Layout>
       <Helmet>
         <title>{`${category} | ${config.siteTitle}`}</title>
-        <meta name="description" content={typeof data.yoast !== 'undefined' ? data.yoast.metadesc : ''} />
+        <meta name="description" content={`Articles dans la catégorie ${title}`} />
       </Helmet>
       <SEO pagePath={`/${category}`} postNode={posts} postSEO />
 

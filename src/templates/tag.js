@@ -16,7 +16,7 @@ const Tag = props => {
     <Layout>
       <Helmet>
         <title>{`${tag} | ${config.siteTitle}`}</title>
-        <meta name="description" content={typeof data.yoast !== 'undefined' ? data.yoast.metadesc : ''} />
+        <meta name="description" content={`Articles dans l'étiquette ${title}`} />
       </Helmet>
       <SEO pagePath={`/${tag}`} postNode={posts} postSEO />
 

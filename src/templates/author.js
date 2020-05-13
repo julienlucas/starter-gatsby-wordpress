@@ -23,7 +23,7 @@ const Author = props => {
     <Layout>
       <Helmet>
         <title>{`${name} | ${config.siteTitle}`}</title>
-        <meta name="description" content={typeof data.yoast !== 'undefined' ? data.yoast.metadesc : ''} />
+        <meta name="description" content={`Articles de ${name}`} />
       </Helmet>
       <SEO pagePath={`/${name}`} postNode={posts} postSEO />
       <PostList posts={posts} title={title} />
@@ -39,9 +39,6 @@ export const pageQuery = graphql`
       name
       authored_wordpress__POST {
         ...PostListFields
-        yoast {
-          metadesc
-        }
       }
     }
   }
