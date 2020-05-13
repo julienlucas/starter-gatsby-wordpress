@@ -1,6 +1,7 @@
 # Starter Gatsby + Wordpress Gatsby v1
 
-This is inspired by: https://github.com/GatsbyCentral/gatsby-starter-wordpress (check also this page if you have problems) I added support for SEO, micro-datas, and other little things.
+This is my starter, it's inspired by this one: https://github.com/GatsbyCentral/gatsby-starter-wordpress (check also this page if you have problems).
+I added support for SEO, micro-datas, and other little things.
 
 ## Use It Now
 
