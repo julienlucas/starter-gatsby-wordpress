@@ -1,17 +1,10 @@
 # Starter Gatsby + Wordpress Gatsby v1
 
-This is my starter, and it's inspired by: https://github.com/GatsbyCentral/gatsby-starter-wordpress
-I added support for SEO and other little things.
-
-This starter is forked from the
-[gatsby-starter-netlify-cms](https://github.com/netlify-templates/gatsby-starter-netlify-cms)
-and modified to use WordPress instead of netlify-cms, using the [gatsby-source-wordpress](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress) plugin as the data connector.
-
-Demo: https://gatsby-starter-wordpress.netlify.com/
+This is inspired by: https://github.com/GatsbyCentral/gatsby-starter-wordpress (check also this page if you have problems) I added support for SEO, micro-datas, and other little things.
 
 ## Use It Now
 
-    gatsby new NAME https://github.com/GatsbyCentral/gatsby-starter-wordpress
+gatsby new NAME https://github.com/julienlucas/starter-gatsby-wordpress
 
 * Edit `gatsby-config.js`, change `baseUrl`
   - Make sure you have at least 1 post and 1 page on your WordPress site
@@ -19,7 +12,6 @@ Demo: https://gatsby-starter-wordpress.netlify.com/
 * Ensure the permalink structure in your WordPress installation is set to `Post Name` instead of the deafult `Plain`, or else the `gatsby-source-wordpress` plugin won't be able to communicate with WordPress
 * Rejoice
   - For more information on the source plugin, check out the [gatsby-source-wordpress](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress) repository page
-  - File any [issues here](https://github.com/GatsbyCentral/gatsby-starter-wordpress/issues)
 
 ### Known Limitations
 
@@ -32,11 +24,17 @@ Demo: https://gatsby-starter-wordpress.netlify.com/
 
 ## CSS Processing
 
-This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma build would otherwise be ~170K which adds 170K to each of your built HTML pages. However, with purgecss this is reduced 90%.
+This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and SMACSS for SCSS files structure. Purgecss only apply to the /styles folder.
 
 ## WordPress Setup
 
-Check the [gatsby-source-wordpress](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress) plugin for more information. If you want to copy the demo content, you can grab the [WordPress XML export here](https://wpdemo.gatsbycentral.com/gatsbystarterwordpress.WordPress.2019-09-12.xml) and import it into your WordPress site as a starting point.
+Check the [gatsby-source-wordpress](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress) plugin for more information.
+
+* You need to install some Wordpress plugins in your /plugins folder to use the Wordpress API, ACF, Menus and Yoast SEO. Otherwise the build will fail.
+  - ACF to REST API : https://fr.wordpress.org/plugins/acf-to-rest-api/
+  -	WP GraphQL : https://github.com/wp-graphql/wp-graphql
+  - WP REST API Yoast SEO : https://github.com/ChazUK/wp-api-yoast-meta/blob/master/plugin.php
+  - WP-REST-API V2 Menus : https://fr.wordpress.org/plugins/wp-rest-api-v2-menus/
 
 ## Contributors
 
