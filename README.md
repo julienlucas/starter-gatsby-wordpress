@@ -12,12 +12,17 @@ I added:
 
 ## Use It Now
 
-gatsby new NAME https://github.com/julienlucas/starter-gatsby-wordpress
+`gatsby new NAME https://github.com/julienlucas/starter-gatsby-wordpress`
 
 * Edit `gatsby-config.js`, change `baseUrl`
   - Make sure you have at least 1 post and 1 page on your WordPress site
   - Make sure at least 1 post has at least 1 tag
 * Ensure the permalink structure in your WordPress installation is set to `Post Name` instead of the deafult `Plain`, or else the `gatsby-source-wordpress` plugin won't be able to communicate with WordPress
+* You need to install some Wordpress plugins in your /plugins folder to use the Wordpress API, ACF, Menus and Yoast SEO. It's necessary, Otherwise the build will fail.
+  - ACF to REST API : https://fr.wordpress.org/plugins/acf-to-rest-api/
+  -	WP GraphQL : https://github.com/wp-graphql/wp-graphql
+  - WP REST API Yoast SEO : https://github.com/ChazUK/wp-api-yoast-meta/blob/master/plugin.php
+  - WP-REST-API V2 Menus : https://fr.wordpress.org/plugins/wp-rest-api-v2-menus/
 * Rejoice
   - For more information on the source plugin, check out the [gatsby-source-wordpress](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress) repository page
 
@@ -37,12 +42,6 @@ This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gats
 ## WordPress Setup
 
 Check the [gatsby-source-wordpress](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress) plugin for more information.
-
-* You need to install some Wordpress plugins in your /plugins folder to use the Wordpress API, ACF, Menus and Yoast SEO. It's necessary, Otherwise the build will fail.
-  - ACF to REST API : https://fr.wordpress.org/plugins/acf-to-rest-api/
-  -	WP GraphQL : https://github.com/wp-graphql/wp-graphql
-  - WP REST API Yoast SEO : https://github.com/ChazUK/wp-api-yoast-meta/blob/master/plugin.php
-  - WP-REST-API V2 Menus : https://fr.wordpress.org/plugins/wp-rest-api-v2-menus/
 
 ## Contributors
 
