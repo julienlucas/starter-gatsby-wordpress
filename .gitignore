@@ -1,4 +1,3 @@
 node_modules
-public/page-data
-*.cache
+public
 .cache

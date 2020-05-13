@@ -22,13 +22,16 @@ nav {
       }
     }
   }
-  .logo {cursor: pointer}
+  .logo {
+    position: relative;
+    top: 50% ;
+    cursor: pointer;
+  }
   .container {
     display: flex;
     height: 7rem;
     align-items: center;
     .navbar-left {
-      margin-left: 12rem;
       li {padding: 0 2.5rem}
       a {
         display: block;

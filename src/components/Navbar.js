@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
-import logo from '../../static/img/logo.svg'
+import logo from '../../static/img/logo.png'
 
 const Navbar = () => (
   <StaticQuery
@@ -23,7 +23,7 @@ const Navbar = () => (
       <nav className="navbar">
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/"><img src={logo} width="150px" className="logo" alt=""/></Link>
+            <Link to="/"><img src={logo} width="40px" className="logo" alt=""/></Link>
           </div>
           <div className="navbar-left">
             <ul>

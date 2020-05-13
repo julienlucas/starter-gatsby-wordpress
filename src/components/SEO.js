@@ -121,9 +121,9 @@ class SEO extends Component {
         <meta name="theme-color" content="#ffffff"/>
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <link rel="manifest" href="./manifest.json"/>
-        <link rel="apple-touch-icon" sizes="152x152" href={`img/apple-touch-icon.png`}/>
-        <link rel="icon" type="image/png" sizes="32x32" href={`img/favicon-32x32.png`}/>
-        <link rel="icon" type="image/png" sizes="16x16" href={`img/favicon-16x16.png`}/>
+        <link rel="apple-touch-icon" sizes="152x152" href={`favicons/apple-touch-icon.png`}/>
+        <link rel="icon" type="image/png" sizes="32x32" href={`favicons/favicon-32x32.png`}/>
+        <link rel="icon" type="image/png" sizes="16x16" href={`favicons/favicon-16x16.png`}/>
 
         {/* Schema.org tags */}
         <script type="application/ld+json">
