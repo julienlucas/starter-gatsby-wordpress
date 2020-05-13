@@ -31,7 +31,7 @@ This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gats
 
 Check the [gatsby-source-wordpress](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress) plugin for more information.
 
-* You need to install some Wordpress plugins in your /plugins folder to use the Wordpress API, ACF, Menus and Yoast SEO. Otherwise the build will fail.
+* You need to install some Wordpress plugins in your /plugins folder to use the Wordpress API, ACF, Menus and Yoast SEO. It's necessary, Otherwise the build will fail.
   - ACF to REST API : https://fr.wordpress.org/plugins/acf-to-rest-api/
   -	WP GraphQL : https://github.com/wp-graphql/wp-graphql
   - WP REST API Yoast SEO : https://github.com/ChazUK/wp-api-yoast-meta/blob/master/plugin.php
