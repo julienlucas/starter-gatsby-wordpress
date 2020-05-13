@@ -1,7 +1,13 @@
 # Starter Gatsby + Wordpress Gatsby v1
 
 This is my starter, it's inspired by this one: https://github.com/GatsbyCentral/gatsby-starter-wordpress (check also this page if you have problems).
-I added support for SEO, micro-datas, and other little things.
+I added:
+  - Support for SEO / Yoast
+  - Micro-datas
+  - Manifest
+  - Google Analytics
+  - Wordpress API Menus
+  - SMACSS structuration for the SCSS files (http://smacss.com/)
 
 ## Use It Now
 
