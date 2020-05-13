@@ -1,0 +1,56 @@
+html {font-size: 62.5%; scroll-behavior: smooth}
+* {box-sizing: border-box}
+::selection {background-color: $denim; color: white}
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+//Typographies
+a, a:hover {transition: all .1s cubic-bezier(0.045, 0.715, 0.250, 1.000)}
+
+b, strong {font-family: $medium; font-weight:400}
+p, ul li, ol li, label, button, h1, h2, h3, h4, h5, h6, div {
+  margin: 0;
+  font-weight:400;
+  font-family: $regular;
+  font-size: 1.6rem;
+  line-height: 140%;
+  color: $black;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0 0 3rem 0;
+  font-family: $bold;
+  line-height: 110%;
+}
+
+h1 {font-size: $h1-size}
+h2 {font-size: $h2-size}
+h3 {font-size: $h3-size}
+h4 {font-size: $h4-size}
+h5 {font-size: $h5-size}
+h6 {font-size: $h6-size}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  &.category {list-style: none;}
+}
+
+//Container
+.container {
+  margin: 0 auto;
+  padding: 0 3rem;
+  max-width: 130rem; width: 100%;
+  border: .1rem solid $alabaster;
+}
+
+main.blog {
+  h3 {margin: 3rem 0 1rem 0}
+}
+
+@media only screen and (max-width: 768px) {
+}
