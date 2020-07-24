@@ -51,3 +51,4 @@ were gratefully received from the following folks:
 
 * https://github.com/tomByrer
 * https://github.com/dajocarter
+# iziwork-gatsby-wordpress
